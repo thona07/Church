@@ -28,11 +28,15 @@ h2 {
 	text-transform: uppercase;
 }
 h3 {
-
+	font-size: 1.2em;
+	color: #789f90;
+	padding-top: 20px;
+	margin: 0;
 }
 p {
 	font-size: 1.25em;
 	line-height: 1.5;
+	text-align: left;
 }
 img {
 	width: 100%;
@@ -43,6 +47,12 @@ img {
 .container:nth-child( 2 ),
 .container:nth-child( 4 ) {
 	padding: 0;
+}
+.container:nth-child( 6 ) {
+	padding: 35px 0 0 0;
+}
+.container:nth-child(9) {
+	padding: 0 15px;
 }
 .logo {
 	display: block;
@@ -133,6 +143,7 @@ nav ul a:hover {
 	border-radius: 5px;
 }
 .col-left {
+	text-align: center;
 }
 .col-right {
 	padding-top: 30px;
@@ -187,7 +198,104 @@ nav ul a:hover {
 .gallery ul li a:hover {
 	text-decoration: underline;
 }
-
+.mission {
+	display: block;
+	background: url(../images/metion-event.jpg) no-repeat;
+	background-size: cover;
+	padding: 45px 15px;
+	text-align: center;
+}
+.mission h2 {
+	color: #fff;
+	padding: 0 0 10px 0;
+}
+.mission span {
+	color: #fff;
+	font-size: 1em;
+}
+.courses {
+	text-align: center;
+}
+.courses h2 {
+	padding-bottom: 10px;
+}
+.courses span {
+	color: #343836;
+	font-size: 1.5em;
+}
+.course {
+	padding-top: 30px;
+}
+.course p {
+	margin: 0;
+	padding-top: 10px;
+	color: #343836;
+}
+.latest-posts {
+	text-align: center;
+	background: #789f90;
+	padding-bottom: 20px;
+}
+.latest-posts h2 {
+	padding-bottom: 20px;
+	color: #ffffff;
+}
+.latest-posts span {
+	display: block;
+	color: #fff;
+	padding-top: 7px
+} 
+.latest-posts h3 a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+.latest-posts p {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.address {
+	text-align: center;
+	padding-top: 20px;
+}
+.address p ,a{
+	margin: 0;
+	color: #789f90;
+	font-family: "museo-sans-rounded",sans-serif;
+	padding-top: 5px;
+}
+.social-media {
+	padding: 40px 0;
+}
+.social{
+background:#343836;
+}
+.social-media ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-media ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.social-media ul li a {
+	display: block;
+	text-indent: -9999px;
+	width: 52px;
+	height: 52px;
+}
+.social-media ul li.facebook a {
+	background: url(../images/facebook.jpg) no-repeat 0 0;
+}
+.social-media ul li.twitter a {
+	background: url(../images/twt.jpg) no-repeat 0 0;
+}
+.social-media ul li.instagram a {
+	background: url(../images/instagram.jpg) no-repeat 0 0;
+}
 /** Clear Fix */
 .clearfix:after {
 	content: " "; /* Older browser do not support empty content */
@@ -195,4 +303,14 @@ nav ul a:hover {
 	display: block;
 	height: 0;
 	clear: both;
+}
+
+@media ( min-width: 992px ) {
+	nav {
+	position: static;
+	background:#fff;
+}
+	.menu{
+		display: none;
+	}
 }
