@@ -309,8 +309,27 @@ background:#343836;
 	nav {
 	position: static;
 	background:#fff;
+	min-height: 45px;
 }
 	.menu{
 		display: none;
+	}
+	nav ul {
+		position: static;
+		display: block;
+		top: 53px;
+		width: 100%;
+		background: #87CEFA;
+		text-align: center;
+		list-style: none;
+		
+	}
+	ul li {
+		display: inline-block;
+	}
+	.hero {
+		margin: 0;
+		padding-bottom: 350px;
+		background-size: cover;
 	}
 }
