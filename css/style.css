@@ -196,6 +196,7 @@ nav ul a:hover {
 	margin: 0;
 	list-style: none;
 	padding-bottom: 10px;
+	padding-left: 0;
 }
 .gallery ul li {
 	display: block;
