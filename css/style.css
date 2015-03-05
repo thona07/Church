@@ -345,12 +345,14 @@ nav ul a:hover {
 		padding-left: 10px;
 		padding-bottom: 30px;
 	}
-	
+	.container:nth-child( 7) .course {
+		padding-left: 2.5%;
+		
+	}
 .course {
 	padding-top: 30px;
-	width: 31%;
+	width: 30%;
 	float: left;
-	padding-left: 17px;
 	}
 	.gallery ul li {
 		float: left;
