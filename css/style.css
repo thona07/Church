@@ -234,9 +234,6 @@ nav ul a:hover {
 	font-size: 1.5em;
 	line-height: 1.5em;
 }
-.course {
-	padding-top: 30px;
-}
 .course p {
 	margin: 0;
 	padding-top: 10px;
@@ -323,7 +320,7 @@ nav ul a:hover {
 }
 
 @media ( min-width: 768px ) {
-	.row h2{
+	h2{
 		padding-top: 35px;
 		padding-left: 10px;
 	}
@@ -346,6 +343,14 @@ nav ul a:hover {
 		width: 45%;
 		float: left;
 		padding-left: 10px;
+		padding-bottom: 30px;
+	}
+	
+.course {
+	padding-top: 30px;
+	width: 31%;
+	float: left;
+	padding-left: 17px;
 	}
 	.gallery ul li {
 		float: left;
@@ -402,10 +407,6 @@ nav ul a:hover {
 	.hero span {
 		font-size: 2.5em;
 	}
-	.container:nth-child( 3) .row {
-		padding-bottom: 500px;
-	}
-	
 	.worship {
 		padding-bottom: 160px;
 	}
