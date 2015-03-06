@@ -7,32 +7,32 @@
 
 @import 'normalize.css';
 body {
+	color: #343836;
 	font-family: "museo-slab", serif;
 	font-size: 14px;
-	color: #343836;
 }
 h1, h2, h3 {
 	font-family: "museo-sans-rounded",sans-serif;
 }
 h1 {
-	font-size: 2.5em;
 	color: #fff;
+	font-size: 2.5em;
 	margin: 0;
 	padding: 0 0 10px 0;
 }
 h2 {
-	font-size: 2em;
-	text-align: cwnter;
-	margin: 0;
-	padding-top: 30px;
 	color: #789f90;
+	font-size: 2em;
+	margin: 0;
+	text-align: cwnter;
 	text-transform: uppercase;
+	padding-top: 30px;
 }
 h3 {
-	font-size: 1.5em;
 	color: #789f90;
-	padding-top: 30px;
+	font-size: 1.5em;
 	margin: 0;
+	padding-top: 30px;
 }
 p {
 	font-size: 1.5em;
@@ -55,43 +55,42 @@ img {
 	background: #789f90;
 }
 .container:nth-child(9) {
-	padding: 0 15px;
 	background: #343836;
+	padding: 0 15px;
 }
 .logo {
-	display: block;
-	text-decoration: none;
-	text-indent: -9999px;
 	background: url(../images/logo.png) no-repeat;
 	background-size: 46px 46px;
-	width: 46px;
-	height: 46px;
+	display: block;
 	float: left;
+	text-decoration: none;
+	text-indent: -9999px;
 	margin: 10px 0 10px 15px;
+	height: 46px;
+	width: 46px;
 }
 
 nav {
-	position: fixed;
-	width: 100%;
-	top: 0;
 	background: #fff;
 	box-shadow: 1px 2px 4px #ccc;
+	top: 0;
+	position: fixed;
+	width: 100%;
 }
 nav ul {
-	list-style: none;
-	position: absolute;
-	margin: 0;
-	top: 66px;
 	background: #fff;
-	padding: 0;
-	width: 100%;
 	display: none;
+	margin: 0;top: 66px;
+	position: absolute;
+	padding: 0;
+	list-style: none;
+	width: 100%;
 }
 nav ul a {
+	color: #789f90;
 	display: block;
 	padding: 20px 15px;
 	text-decoration: none;
-	color: #789f90;
 }
 nav ul a:hover {
 	background: #789f90;
@@ -99,23 +98,24 @@ nav ul a:hover {
 }
 .menu {
 	border-radius: 4px;
-	position: absolute;
-	width: 20px;
-	right: 15px;
-	top: 15px;
-	padding: 10px;
-	cursor: pointer;
 	background: #eee;
+	cursor: pointer;
+	top: 15px;
+	position: absolute;
+	padding: 10px;
+	right: 15px;
+	width: 20px;
 }
 .menu:hover {
 	background: #789f90;
 }
 .menu span {
-	width: 18px;
-	height: 3px;
+	
 	background: #789f90;
 	display: inline-block;
 	margin-bottom: 3px;
+	height: 3px;
+	width: 18px;
 }
 .menu:hover span{
 	background: #fff;
@@ -136,15 +136,15 @@ nav ul a:hover {
 	font-size: 1.5em;
 }
 .more {
+	background-color: #789f90;
+	border-radius: 5px;
+	color: #fff;
 	display: inline-block;
-	padding: 15px 25px;
 	font-family: "museo-sans-rounded",sans-serif;
 	font-size: 1rem;
 	text-transform: uppercase;
-	color: #fff;
-	background-color: #789f90;
 	text-decoration: none;
-	border-radius: 5px;
+	padding: 15px 25px;
 }
 .col-left {
 	text-align: center;
@@ -163,8 +163,8 @@ nav ul a:hover {
 	text-align: center;
 }
 .worship h2 {
-	text-align: center;
 	color: #fff;
+	text-align: center;
 	font-size: 2.5em;
 	padding: 0 0 10 0px;
 }
@@ -198,10 +198,10 @@ nav ul a:hover {
 	padding-bottom: 30px;
 }
 .gallery ul li a {
+	color: #789f90;
 	display: block;
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #789f90;
 	padding-top: 25px;
 }
 .gallery ul li a:hover {
@@ -215,9 +215,9 @@ nav ul a:hover {
 	margin-top: 40px;
 }
 .mission h2 {
+	color: #fff;
 	font-size: 2.5em;
 	line-height: 1.5em;
-	color: #fff;
 	padding: 0 0 10px 0;
 }
 .mission span {
@@ -238,9 +238,9 @@ nav ul a:hover {
 	line-height: 1.5em;
 }
 .course p {
+	color: #343836;
 	margin: 0;
 	padding-top: 10px;
-	color: #343836;
 }
 .latest-posts {
 	padding-bottom: 20px;
@@ -248,20 +248,20 @@ nav ul a:hover {
 	padding-right: 15px;
 }
 .latest-posts h2 {
-	padding-bottom: 20px;
 	color: #ffffff;
+	padding-bottom: 20px;
 }
 .latest-posts span {
-	display: block;
 	color: #fff;
+	display: block;
 	padding-top: 7px;
 	font-size: 1rem;
 	line-height: 1.5em;
 } 
 .latest-posts h3 a {
 	color: #fff;
-	text-decoration: none;
 	font-size: 1.5em;
+	text-decoration: none;
 	padding: 0;
 }
 .latest-posts p {
@@ -274,11 +274,11 @@ nav ul a:hover {
 }
 .address p,
 .address a {
-	margin: 0;
 	color: #789f90;
-	font-family: "museo-sans-rounded",sans-serif;
-	padding-top: 5px;
 	font-size: 1.5rem;
+	font-family: "museo-sans-rounded",sans-serif;
+	margin: 0;
+	padding-top: 5px;
 	text-align: center;
 }
 .address a {
@@ -299,9 +299,9 @@ nav ul a:hover {
 }
 .social-media ul li a {
 	display: block;
+	height: 52px;
 	text-indent: -9999px;
 	width: 52px;
-	height: 52px;
 }
 .social-media ul li.facebook a {
 	background: url(../images/facebook.jpg) no-repeat 0 0;
@@ -314,11 +314,11 @@ nav ul a:hover {
 }
 /** Clear Fix */
 .clearfix:after {
+	clear: both;
 	content: " "; /* Older browser do not support empty content */
-	visibility: hidden;
 	display: block;
 	height: 0;
-	clear: both;
+	visibility: hidden;
 }
 
 @media ( min-width: 768px ) {
@@ -335,25 +335,26 @@ nav ul a:hover {
 		padding: 150px 15px;
 	}
 	.col-left {
-		width: 45%;
 		float: left;
 		padding-bottom: 30px;
 		padding-right: 5%;
 		text-align: left;
+		width: 45%;
 	}
 	.col-right {
-		width: 50%;
 		float: right;
 		padding-top: 30px;
+		width: 50%;	
 	}
 	.course h3 {
 		text-align: left;
 	}
 	.course {
-		padding-top: 30px;
-		width: 30%;
 		float: left;
 		padding-right: 3%;
+		padding-top: 30px;
+		width: 30%;
+		
 	}
 	.course:first-child {
 		padding-left: 2%;
@@ -372,9 +373,9 @@ nav ul a:hover {
 		width: 90%;
 	}
 	.post {
-		width: 48%;
 		float: left;
 		padding-left: 1.4%;
+		width: 48%;
 	}
 	.post img {
 		height: 273px;
@@ -391,15 +392,17 @@ nav ul a:hover {
 		display: none;
 	}
 	nav ul {
-		position: static;
+		
 		display: block;
-		top: 53px;
-		width: 100%;
-		text-align: center;
-		list-style: none;
 		float: right;
-		width: auto;
+		list-style: none;
+		position: static;
 		padding-right: 15px;
+		top: 53px;
+		text-align: center;
+		width: 100%;
+		width: auto;
+		
 	}
 	ul li {
 		display: inline-block;
@@ -408,14 +411,14 @@ nav ul a:hover {
 		padding: 25px 10px;
 	}
 	.hero {
+		background-size: cover;
 		display: block;
 		margin: 0;
 		padding-bottom: 350px;
-		background-size: cover;
 	}
 	.hero h1 { 
-		padding-top: 135px;
 		font-size: 5em;
+		padding-top: 135px;
 	}
 	.hero span {
 		font-size: 2.5em;
@@ -440,8 +443,8 @@ nav ul a:hover {
 		width: 33%;
 	}
 	.gallery h2 {
-		padding-top: 125px;
 		font-size: 3em;
+		padding-top: 125px;
 	}
 	.gallery span {
 		padding-bottom: 82px;
@@ -455,21 +458,28 @@ nav ul a:hover {
 	.mission {
 		padding-top: 125px:
 	}
+	.mission h2 {
+		font-size: 4em;
+	}
 	.latest-posts {
 		padding-top: 125px;
 	}
 	.latest-posts h2{
-		text-align: center;
 		font-size: 5em;
-		padding-bottom: 125px;
+		text-align: center;
+		padding-bottom: 100px;
 	}
 	.post { 
 		float: left;
-		width: 23%;
 		padding-left: 1.6%;
+		width: 23%;
 	}
 	.courses {
 		padding-bottom: 124px;
+	}
+	.courses h2 {
+		font-size: 4em;
+		padding-top: 100px;
 	}
 	
 }
@@ -478,14 +488,14 @@ nav ul a:hover {
 	.container:nth-child( 5 ),
 	.container:nth-child( 7 ),
 	nav .container {
-		width: 1170px;
 		margin: auto;
+		width: 1170px;
 	}
 	nav ul li a {
 		padding: 25px 30px;
 	}
 	.latest-posts {
-		width: 1170px;
 		margin: auto;
+		width: 1170px;
 	}
 }
