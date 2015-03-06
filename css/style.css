@@ -51,6 +51,9 @@ img {
 .container:nth-child( 8 ) {
 	padding: 0;
 }
+.container:nth-child( 8 ) {
+	background: #789f90;
+}
 .container:nth-child(9) {
 	padding: 0 15px;
 	background: #343836;
@@ -240,7 +243,6 @@ nav ul a:hover {
 	color: #343836;
 }
 .latest-posts {
-	background: #789f90;
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -322,7 +324,6 @@ nav ul a:hover {
 @media ( min-width: 768px ) {
 	h2{
 		padding-top: 35px;
-		padding-left: 10px;
 	}
 	.hero {
 		padding: 150px 15px;
@@ -331,28 +332,34 @@ nav ul a:hover {
 		padding: 150px 15px;
 	}
 	.mission {
-	padding: 150px 15px;
-	}
-	.col-right {
-		width: 45%;
-		float: right;
-		padding-right: 10;
-		padding-top: 40px;
+		padding: 150px 15px;
 	}
 	.col-left {
 		width: 45%;
 		float: left;
-		padding-left: 10px;
 		padding-bottom: 30px;
+		padding-right: 5%;
+		text-align: left;
 	}
-	.container:nth-child( 7) .course {
-		padding-left: 2.5%;
-		
+	.col-right {
+		width: 50%;
+		float: right;
+		padding-top: 30px;
 	}
-.course {
-	padding-top: 30px;
-	width: 30%;
-	float: left;
+	.course h3 {
+		text-align: left;
+	}
+	.course {
+		padding-top: 30px;
+		width: 30%;
+		float: left;
+		padding-right: 3%;
+	}
+	.course:first-child {
+		padding-left: 2%;
+	}
+	.course:last-child {
+		padding-right: 0;
 	}
 	.gallery ul li {
 		float: left;
@@ -376,7 +383,7 @@ nav ul a:hover {
 }
 @media ( min-width: 992px ) {
 	nav {
-	position: static;
+	position: fixed;
 	background:#fff;
 	min-height: 45px;
 }
@@ -388,13 +395,17 @@ nav ul a:hover {
 		display: block;
 		top: 53px;
 		width: 100%;
-		background: #87CEFA;
 		text-align: center;
 		list-style: none;
-		
+		float: right;
+		width: auto;
+		padding-right: 15px;
 	}
 	ul li {
 		display: inline-block;
+	}
+	nav ul li a {
+		padding: 25px 10px;
 	}
 	.hero {
 		display: block;
@@ -417,5 +428,64 @@ nav ul a:hover {
 	}
 	.worship span {
 		font-size: 2.5em;
+	}
+	.col-left {
+		padding-bottom: 125px;
+	}
+	.col-left p {
+		padding-bottom: 80px;
+	}
+	.gallery ul li {
+		float: left;
+		width: 33%;
+	}
+	.gallery h2 {
+		padding-top: 125px;
+		font-size: 3em;
+	}
+	.gallery span {
+		padding-bottom: 82px;
+	}
+	.gallery ul li:nth-child( 3 ) {
+		clear: none;
+	}
+	.gallery ul li:nth-child( 4 ) {
+		clear: both;
+	}
+	.mission {
+		padding-top: 125px:
+	}
+	.latest-posts {
+		padding-top: 125px;
+	}
+	.latest-posts h2{
+		text-align: center;
+		font-size: 5em;
+		padding-bottom: 125px;
+	}
+	.post { 
+		float: left;
+		width: 23%;
+		padding-left: 1.6%;
+	}
+	.courses {
+		padding-bottom: 124px;
+	}
+	
+}
+@media ( min-width: 1200px ) {
+	.container:nth-child( 3 ),
+	.container:nth-child( 5 ),
+	.container:nth-child( 7 ),
+	nav .container {
+		width: 1170px;
+		margin: auto;
+	}
+	nav ul li a {
+		padding: 25px 30px;
+	}
+	.latest-posts {
+		width: 1170px;
+		margin: auto;
 	}
 }
