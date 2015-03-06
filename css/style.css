@@ -481,7 +481,14 @@ nav ul a:hover {
 		font-size: 4em;
 		padding-top: 100px;
 	}
-	
+	.address {
+		float: left;
+		padding: 50px 0;
+	}
+	.social-media {
+		float: right;
+		padding: 50px 0;
+	}
 }
 @media ( min-width: 1200px ) {
 	.container:nth-child( 3 ),
