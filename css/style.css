@@ -227,15 +227,17 @@ nav ul a:hover {
 }
 .courses {
 	text-align: center;
-	padding-bottom: 30px;
 }
 .courses h2 {
 	padding-bottom: 10px;
 }
 .courses span {
 	color: #343836;
+	display: block;
 	font-size: 1.5em;
 	line-height: 1.5em;
+	padding-bottom: 30px;
+}
 }
 .course p {
 	color: #343836;
@@ -243,7 +245,6 @@ nav ul a:hover {
 	padding-top: 10px;
 }
 .latest-posts {
-	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -330,14 +331,14 @@ nav ul a:hover {
 	}
 	.worship {
 		padding: 150px 15px;
+		margin-top: 90px;
 	}
 	.mission {
 		padding: 150px 15px;
-		margin-top: 100px;
+		margin-top: 90px;
 	}
 	.col-left {
 		float: left;
-		padding-bottom: 30px;
 		padding-right: 5%;
 		text-align: left;
 		width: 45%;
@@ -350,12 +351,18 @@ nav ul a:hover {
 	.course h3 {
 		text-align: left;
 	}
+	.latest-posts p {
+		padding-bottom: 90px;
+	}
 	.course {
 		float: left;
 		padding-right: 3%;
 		padding-top: 30px;
 		width: 30%;
-		
+	}
+	.course p {
+		margin-bottom: 0px;
+		padding-bottom: 90px;
 	}
 	.course:first-child {
 		padding-left: 2%;
@@ -366,6 +373,9 @@ nav ul a:hover {
 	.gallery ul li {
 		float: left;
 		width: 50%;
+	}
+	.gallery span {
+		padding-bottom: 50px;
 	}
 	.gallery ul li:nth-child( 3 ) {
 		clear: both;
@@ -381,19 +391,27 @@ nav ul a:hover {
 	.post img {
 		height: 273px;
 	}
-	
+	.address {
+		padding-top: 90px;
+	}
+	.address p {
+		padding-top: 0px;
+	}
+	.social-media {
+		padding-top: 40px;
+		padding-bottom: 90px;
+	}
 }
 @media ( min-width: 992px ) {
 	nav {
-	position: fixed;
-	background:#fff;
-	min-height: 45px;
-}
+		position: fixed;
+		background:#fff;
+		min-height: 45px;
+	}
 	.menu{
 		display: none;
 	}
 	nav ul {
-		
 		display: block;
 		float: right;
 		list-style: none;
@@ -403,13 +421,13 @@ nav ul a:hover {
 		text-align: center;
 		width: 100%;
 		width: auto;
-		
 	}
 	ul li {
 		display: inline-block;
 	}
 	nav ul li a {
 		font-size: 1.5em;
+		padding: 28px 15px;
 	}
 	.logo {
 		background-size: 60px 60px;
@@ -438,22 +456,13 @@ nav ul a:hover {
 	.worship span {
 		font-size: 2.5em;
 	}
-	.col-left {
-		padding-bottom: 125px;
-	}
-	.col-left p {
-		padding-bottom: 80px;
-	}
 	.gallery ul li {
 		float: left;
 		width: 33%;
 	}
 	.gallery h2 {
 		font-size: 3em;
-		padding-top: 125px;
-	}
-	.gallery span {
-		padding-bottom: 82px;
+		padding-top: 90px;
 	}
 	.gallery ul li:nth-child( 3 ) {
 		clear: none;
@@ -464,33 +473,26 @@ nav ul a:hover {
 	.mission h2 {
 		font-size: 4em;
 	}
-	.latest-posts {
-		padding-top: 125px;
-	}
 	.latest-posts h2{
 		font-size: 5em;
 		text-align: center;
-		padding-bottom: 100px;
+		padding-bottom: 50px;
 	}
 	.post { 
 		float: left;
 		padding-left: 1.6%;
 		width: 23%;
 	}
-	.courses {
-		padding-bottom: 124px;
-	}
 	.courses h2 {
 		font-size: 4em;
-		padding-top: 100px;
 	}
 	.address {
 		float: left;
-		padding: 50px 0;
 	}
 	.social-media {
 		float: right;
-		padding: 50px 0;
+		padding-top: 90px;
+		padding-bottom: 90px;
 	}
 }
 @media ( min-width: 1200px ) {
@@ -500,9 +502,6 @@ nav ul a:hover {
 	nav .container {
 		margin: auto;
 		width: 1170px;
-	}
-	nav ul li a {
-		padding: 25px 30px;
 	}
 	.latest-posts {
 		margin: auto;
