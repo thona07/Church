@@ -454,10 +454,13 @@ textarea {
 		padding-top: 40px;
 		padding-bottom: 90px;
 	}
+	
+	/** Interio.html page */
+	button {
+		margin-bottom: 90px;
+	}
 }
 
-/** Interio.html page */
-	
 @media ( min-width: 992px ) {
 	nav {
 		position: fixed;
@@ -557,6 +560,10 @@ textarea {
 	.pray{
 		padding-top: 150px;
 		padding-bottom: 150px;
+	}
+	form {
+		width: 474px;
+		margin: auto;
 	}
 @media ( min-width: 1200px ) {
 	.container:nth-child( 3 ),
