@@ -54,7 +54,10 @@ img {
 .container:nth-child( 8 ) {
 	background: #789f90;
 }
-.container:nth-child(9) {
+.container:nth-child( 9 ) {
+	padding: 0;
+}
+.footer {
 	background: #343836;
 	padding: 0 15px;
 }
@@ -276,13 +279,14 @@ nav ul a:hover {
 .address p,
 .address a {
 	color: #789f90;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	font-family: "museo-sans-rounded",sans-serif;
 	margin: 0;
 	padding-top: 5px;
 	text-align: center;
 }
 .address a {
+	font-size: 1em;
 	word-break: break-all;
 }
 .social-media {
@@ -313,6 +317,55 @@ nav ul a:hover {
 .social-media ul li.instagram a {
 	background: url(../images/instagram.jpg) no-repeat 0 0;
 }
+
+/** Interio.html page */
+
+.pray {
+	background: url(../images/pray.jpg) no-repeat 0 0;
+	background-size: cover;
+	margin-top: 66px;
+	padding: 40px 15px;
+	text-align: center;
+}
+.pray h1 {
+	text-transform: uppercase;
+}
+.pray span {
+	font-size:1.5em;
+	color: #fff;
+	display: block;
+}
+form {
+	margin-bottom: 0;
+	font-family: "museo-sans-rounded",sans-serif;
+	font-size: 1.3em;
+}
+label {
+	display: block;
+	color: #789f90;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+input,
+textarea {
+	width: 100%;
+	background: #ccc;
+	border: transparent;
+	border-radius: 3px;
+	padding: 10px 15px;
+}
+ button {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.address {
+	padding-top: 35px;
+}
+.address p{
+	padding-top: 0;
+}
+
 /** Clear Fix */
 .clearfix:after {
 	clear: both;
@@ -402,6 +455,9 @@ nav ul a:hover {
 		padding-bottom: 90px;
 	}
 }
+
+/** Interio.html page */
+	
 @media ( min-width: 992px ) {
 	nav {
 		position: fixed;
@@ -495,6 +551,13 @@ nav ul a:hover {
 		padding-bottom: 90px;
 	}
 }
+
+	/** Interio.html page */
+	
+	.pray{
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
 @media ( min-width: 1200px ) {
 	.container:nth-child( 3 ),
 	.container:nth-child( 5 ),
