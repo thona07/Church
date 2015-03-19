@@ -552,8 +552,7 @@ textarea {
 		padding-top: 90px;
 		padding-bottom: 90px;
 	}
-}
-
+	
 	/** Interio.html page */
 	
 	.pray{
@@ -564,6 +563,9 @@ textarea {
 		width: 474px;
 		margin: auto;
 	}
+}
+
+	
 @media ( min-width: 1200px ) {
 	.container:nth-child( 3 ),
 	.container:nth-child( 5 ),
